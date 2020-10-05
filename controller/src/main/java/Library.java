@@ -5,7 +5,7 @@ public class Library {
 
     private final ArrayList<Book> books = new ArrayList<>();
 
-    public void putBook(String bookName, Book book) {
+    public void putBook(Book book) {
         books.add(book);
     }
 

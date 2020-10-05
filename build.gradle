@@ -28,3 +28,14 @@ allprojects {
     }
 
 }
+
+// не работает
+//jar {
+//    manifest {
+//        attributes "Main-Class": "library.controller.main.Application"
+//    }
+//
+//    from {
+//        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+//    }
+//}
